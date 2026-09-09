@@ -43,7 +43,6 @@ This project aims to integrate ethical AI considerations into the SDLC so that p
 
 The project considers ethical AI principles across the major stages of the Software Development Life Cycle:
 
-```text
 Planning
    ↓
 Requirements Analysis
@@ -56,4 +55,4 @@ Testing
    ↓
 Deployment
    ↓
-Maintenance<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/34448abf-5627-4081-99e4-fc16dd5ddc54" />
+Maintenance
