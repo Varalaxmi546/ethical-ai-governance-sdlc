@@ -6,7 +6,6 @@ def login():
         username = request.form.get('username', '').strip()
         password = request.form.get('password', '').strip()
 
-        # Allow any non-empty username and password
         if username and password:
             return redirect(url_for('home'))
 
