@@ -6,9 +6,10 @@ def login():
         username = request.form.get('username', '').strip()
         password = request.form.get('password', '').strip()
 
-        if username == 'admin' and password == 'admin123':
+        # Allow any non-empty username and password
+        if username and password:
             return redirect(url_for('home'))
 
-        error = 'Invalid username or password.'
+        error = 'Please enter username and password.'
 
     return render_template('login.html', error=error)
